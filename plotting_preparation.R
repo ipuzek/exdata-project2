@@ -47,7 +47,7 @@ plot4 <- coal %>%
 
   # check grepping ### SCC$Short.Name[grepl('highway veh - diesel', SCC$Short.Name, ignore.case = TRUE)]
 
-  # 2 types - gasoline/diesel
+  # 2 types - gasoline/diesel # You can also use the value = TRUE option and get the matching elements directly.
 gasoline_SCC <- SCC$SCC[grepl('highway veh - gasoline', SCC$Short.Name, ignore.case = TRUE)]
 diesel_SCC <- SCC$SCC[grepl('highway veh - diesel', SCC$Short.Name, ignore.case = TRUE)]
 
